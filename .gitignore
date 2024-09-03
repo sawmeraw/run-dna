@@ -3,3 +3,6 @@
 /results/
 /rundna/
 /images/
+/__pycache__/
+.vscode/
+selenium_driver/
