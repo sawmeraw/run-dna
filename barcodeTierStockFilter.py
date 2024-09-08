@@ -2,11 +2,11 @@ import pandas as pd
 import re
 
 def filter_products_by_stock(product_file: str, stock_file: str, output_file: str):
-    product_df = pd.read_csv(product_file)
+    product_df = pd.read_csv(product_file, low_memory=False)
 
     stock_df = pd.read_csv(stock_file)
 
-    product_df['ProductCode'] = product_df['SupplierSKU2']
+    product_df['ProductCode'] = product_df['ManufacturerSKU']
 
     product_df['SupplierSKU'] = product_df['SupplierSKU'].astype(str)
     stock_df['SupplierSKU'] = stock_df['SupplierSKU'].astype(str)
