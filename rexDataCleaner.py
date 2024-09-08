@@ -21,7 +21,7 @@ def replace_between_parentheses(description, replacement):
     return description
   
 
-def get_product_data(description, brands):
+def get_product_data(description, brands, type):
 
   product_name = ""
   width = ""
@@ -56,17 +56,27 @@ def get_product_data(description, brands):
   for word in split_model:
     product_name = product_name.replace(word, word.lower().capitalize())
 
+  
 
   if len(split_model) > 1:
+    category = "Running Shoes"
+    if type.find('Athletics') != -1:
+      category = "Track & Field Shoes"
+    elif type.find('Racing') != -1:
+      category = "Racing Shoes"
+    elif type.find('Trail') != -1:
+      category = "Trail Running Shoes"
     
+
+
     if gender == 'M':
-      product_name = f"{currBrand} {product_name} - Mens Running Shoes"
+      product_name = f"{currBrand} {product_name} - Mens {category}"
     elif gender == 'W':
-      product_name = f"{currBrand} {product_name} - Womens Running Shoes"
+      product_name = f"{currBrand} {product_name} - Womens {category}"
     elif gender == 'U':
-      product_name = f"{currBrand} {product_name} - Unisex Running Shoes"
+      product_name = f"{currBrand} {product_name} - Unisex {category}"
     elif gender == 'K':
-      product_name = f"{currBrand} {product_name} - Kids Running Shoes"
+      product_name = f"{currBrand} {product_name} - Kids {category}"
 
 
 
@@ -109,58 +119,41 @@ def get_product_data(description, brands):
   return product_name, custom2, color
 
 
-# brands = ["BROOKS", "NIKE"]
-# description1 = "BROOKS M GHOST MAX 2 HELLO (038) BLACK/STEEL BLUE/CLOUD GREY SZ 7 (D)"
-# description2 = "NIKE W AIR MAX (123) WHITE/BLACK/RED SZ 8 (B)"
-# print(get_product_data(description1, brands))
-# print(get_product_data(description2, brands))
-
-brooksWidths = [ "A","D", "E", "X", "B"]
-def process_brooks_mansku(sku):
-  widIndex = -1
-  found_width = None
-  for width in brooksWidths:
-    curr_index = sku.find(width)
-
-    if curr_index != -1:
-      widIndex= curr_index
-      found_width = width
-      break
-
-  return widIndex, found_width
-
+#3WD30121197
 def process_dash_mansku(sku):
   widIndex = -1
   found_width = None
   if sku.find('-') != -1:
     widIndex = sku.find('-')
     found_width = True
-  return widIndex, found_width 
+  return widIndex, found_width
+
+def process_index_mansku(sku):
+  return 8, True
   
 
 if __name__ == "__main__":
-  brands = ["BROOKS", "NIKE", "ASICS", "ADIDAS", "SAUCONY", "HOKA"]
+  brands = ["BROOKS", "NIKE", "ASICS", "ADIDAS", "SAUCONY", "NEW BALANCE", "HOKA", "ON RUNNING", "ON", "VIVOBAREFOOT", "PUMA", "ALTRA"]
 
-  rexFile = pd.read_csv('./data/rex/nike_rex.csv')
-
-
+  rexFile = pd.read_csv('./data/rex/nb_rex.csv')
 
   for index, row in rexFile.iterrows():
     rexFile.at[index, 'SupplierSKU2'] = row['ManufacturerSKU']
-    product_name, custom2, color = get_product_data(row['ShortDescription'], brands)
+    product_name, custom2, color = get_product_data(row['ShortDescription'], brands, row['ProductType'])
     new_short_desc = replace_between_parentheses(row['ShortDescription'], row['ManufacturerSKU'])
-    widIndex, found_width = process_dash_mansku(row['ManufacturerSKU'])
-    if found_width:
-      stripped_man_sku = row['ManufacturerSKU'][:widIndex]
-    else:
-      stripped_man_sku = row['ManufacturerSKU']
+    # widIndex, found_width = process_index_mansku(row['ManufacturerSKU'])
+    # if found_width:
+    #   stripped_man_sku = row['ManufacturerSKU'][:widIndex]
+    # else:
+    #   stripped_man_sku = row['ManufacturerSKU']
     rexFile.at[index, 'Custom1'] = product_name
     rexFile.at[index, 'ShortDescription'] = new_short_desc
-    rexFile.at[index, 'ManufacturerSKU'] = stripped_man_sku
+    # rexFile.at[index, 'ManufacturerSKU'] = stripped_man_sku
     rexFile.at[index, 'Custom2'] = custom2
-    rexFile.at[index, 'Custom3'] = color
     rexFile.at[index, 'Colour'] = color
     
-  rexFile.to_csv("./results/rex processed/nike_processed.csv", index=False)
+    
+    
+  rexFile.to_csv("./results/rex processed/nb_processed.csv", index=False)
 
   print('Done')

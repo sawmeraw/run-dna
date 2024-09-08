@@ -1,7 +1,7 @@
 import pandas as pd
 import os
 
-file_name = 'misc2_export'
+file_name = 'nbmisc2_export'
 
 SHOPIFY_FILE_PATH = os.path.join(os.getcwd(), f'data/{file_name}.csv')
 shopify_df = pd.read_csv(SHOPIFY_FILE_PATH)
@@ -28,7 +28,6 @@ def strip_color(color):
 #https://cdn.shopify.com/s/files/1/0785/8765/8433/files/asics-glideride-max-mens-running-shoes-black-oatmeal-5.jpg?v=1725099131
 def get_shopify_image_url(title, color, index):
     return f'https://cdn.shopify.com/s/files/1/0785/8765/8433/files/{title}-{color}-{index}.jpg?v=1725099131'
-
 
 currTitle = ""
 

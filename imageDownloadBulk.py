@@ -18,10 +18,11 @@ def clean_barcode(barcode):
     return barcode.replace("'", "")
 
 #this hasnt failed, I am surprised
-def get_product_code(description):
+def get_product_code(description) -> str:
     startIndex = description.find("(")
     endIndex = description.find(")")
-    return description[startIndex+1:endIndex]
+    product_code =  description[startIndex+1:endIndex]
+    return product_code
 
 #this has gotten out of hand, need to refactor
 def sanitize_filename(filename):
@@ -30,23 +31,23 @@ def sanitize_filename(filename):
 
 
 #god almighty method
-def generate_brooks_image_urls(item_code, color_code):
+def generate_brooks_image_urls(item_code : str):
     urls = [
-        f'https://s7d4.scene7.com/is/image/WolverineWorldWide/{item_code}-{color_code}_1?$dw-hi-res$',
-        f'https://s7d4.scene7.com/is/image/WolverineWorldWide/{item_code}-{color_code}_2?$dw-hi-res$',
-        f'https://s7d4.scene7.com/is/image/WolverineWorldWide/{item_code}-{color_code}_3?$dw-hi-res$',
-        f'https://s7d4.scene7.com/is/image/WolverineWorldWide/{item_code}-{color_code}_4?$dw-hi-res$',
-        f'https://s7d4.scene7.com/is/image/WolverineWorldWide/{item_code}-{color_code}_5?$dw-hi-res$',
-        f'https://s7d4.scene7.com/is/image/WolverineWorldWide/{item_code}-{color_code}_6?$dw-hi-res$',
+        f'https://nb.scene7.com/is/image/NB/{item_code}_nb_02_i?$dw_detail_main_lg$&bgc=ffffff&layer=1&bgcolor=ffffff&blendMode=mult&scale=10&wid=1600&hei=1600',
+        f'https://nb.scene7.com/is/image/NB/{item_code}_nb_03_i?$dw_detail_main_lg$&bgc=ffffff&layer=1&bgcolor=ffffff&blendMode=mult&scale=10&wid=1600&hei=1600',
+        f'https://nb.scene7.com/is/image/NB/{item_code}_nb_04_i?$dw_detail_main_lg$&bgc=ffffff&layer=1&bgcolor=ffffff&blendMode=mult&scale=10&wid=1600&hei=1600',
+        f'https://nb.scene7.com/is/image/NB/{item_code}_nb_05_i?$dw_detail_main_lg$&bgc=ffffff&layer=1&bgcolor=ffffff&blendMode=mult&scale=10&wid=1600&hei=1600',
+        f'https://nb.scene7.com/is/image/NB/{item_code}_nb_06_i?$dw_detail_main_lg$&bgc=ffffff&layer=1&bgcolor=ffffff&blendMode=mult&scale=10&wid=1600&hei=1600',
+        f'https://nb.scene7.com/is/image/NB/{item_code}_nb_07_i?$dw_detail_main_lg$&bgc=ffffff&layer=1&bgcolor=ffffff&blendMode=mult&scale=10&wid=1600&hei=1600',
+        
     ]
     return urls
 
 
-
 if __name__ == "__main__":
-    file_name = 'misc3_export'
+    file_name = 'nbmisc2_export'
 
-    REX_FILE_PATH = os.path.join(os.getcwd(), 'data/rex/saucony_rex.csv')
+    REX_FILE_PATH = os.path.join(os.getcwd(), 'results/rex processed/sent/nb_processed.csv')
     SHOPIFY_FILE_PATH = os.path.join(os.getcwd(), f'data/{file_name}.csv')
 
     rex_df = pd.read_csv(REX_FILE_PATH)
@@ -74,7 +75,7 @@ if __name__ == "__main__":
             products_dict[key] = barcode
 
 
-    print("Products Dictionary:")
+    print(f"Products Dictionary: Len({len(products_dict)})")
     for key, barcode in products_dict.items():
         print(f"Key: {key}, Barcode: {barcode}")
 
@@ -91,13 +92,14 @@ if __name__ == "__main__":
             if barcode in supplier_sku:
                 found = True
                 description = rex_row['ShortDescription']
-                item_code, color_code = get_product_code(description)
+                item_code = get_product_code(description)
+                stripped_item_code = item_code[: item_code.find("-")]
                 
-                urls = generate_brooks_image_urls(item_code, color_code)
+                urls = generate_brooks_image_urls(stripped_item_code.lower())
 
                 # Download images
                 for i, url in enumerate(urls, start=1):
-                    image_name = sanitize_filename(f"{key}-{i}.png")
+                    image_name = sanitize_filename(f"{key}-{i}.png") # THE FILE EXTENSION IS HEREEEEEE
                     image_path = os.path.join(image_save_dir, image_name)
 
                     try:

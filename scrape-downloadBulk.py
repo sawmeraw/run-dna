@@ -54,6 +54,7 @@ def scrape_images_after_search(search_query,file_name):
         product_item.click()
     except TimeoutException:
         print("Element with class name 'product_item' not found within the time frame.")
+        driver.quit()
         return
 
     WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CLASS_NAME, "photo-grid-wrapper")))
@@ -81,9 +82,9 @@ def scrape_images_after_search(search_query,file_name):
 
 if __name__ == "__main__":
 
-    file_name = 'misc2_export'
+    file_name = 'mizuno4_export'
 
-    REX_FILE_PATH = os.path.join(os.getcwd(), 'data/rex/nike_rex.csv')
+    REX_FILE_PATH = os.path.join(os.getcwd(), 'data/rex/mizuno_rex.csv')
     SHOPIFY_FILE_PATH = os.path.join(os.getcwd(), f'data/{file_name}.csv')
 
     rex_df = pd.read_csv(REX_FILE_PATH)
