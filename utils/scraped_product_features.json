@@ -1,0 +1,2018 @@
+{
+    "Kayano 30": {
+        "Support": "Stability",
+        "Upper": "Mesh",
+        "Midsole": "Asics FlyteFoam Blast Plus Eco, Asics PureGEL",
+        "Heel Height": "40mm",
+        "Forefoot Height": "30mm",
+        "Drop": "10mm",
+        "Weight": "303g / 10.68oz",
+        "Insole": "Removable Insole",
+        "Surface": "Road",
+        "Pronation": "Pronated",
+        "Cushioning": "Plush",
+        "Toebox Width": "Medium",
+        "Toebox Volume": "Medium",
+        "Running Pace": "Jogging/Easy",
+        "Sustainability": "Recycled Materials, Sustainable Manufacturing, Sustainable Materials"
+    },
+    "GT-4000 4": {
+        "Support": "Stability",
+        "Upper": "Mesh",
+        "Midsole": "Asics FlyteFoam Blast"
+    },
+    "GT-2000 12": {
+        "Support": "Stability",
+        "Upper": "Mesh",
+        "Midsole": "Asics FlyteFoam Blast Plus, Asics PureGEL",
+        "Heel Height": "24mm",
+        "Forefoot Height": "16mm",
+        "Drop": "8mm",
+        "Weight": "234g / 8.25oz",
+        "Surface": "Road"
+    },
+    "GT-2000 13": {
+        "Support": "Stability",
+        "Upper": "Mesh",
+        "Midsole": "Asics FlyteFoam Blast Plus, Asics PureGEL",
+        "Heel Height": "35.5mm",
+        "Forefoot Height": "27.5mm",
+        "Drop": "8mm",
+        "Weight": "235g / 8.3oz",
+        "Surface": "Road",
+        "Sustainability": "Recycled Materials"
+    },
+    "GT-1000 13": {},
+    "Gel Nimbus 26": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Asics FlyteFoam Blast Plus, Asics PureGEL",
+        "Heel Height": "41mm",
+        "Forefoot Height": "33mm",
+        "Drop": "8mm",
+        "Weight": "300g / 10.6oz (US 9)",
+        "Surface": "Road",
+        "Pronation": "Neutral",
+        "Flexibility": "6",
+        "Cushioning": "Plush",
+        "Toebox Width": "Medium",
+        "Toebox Volume": "Medium",
+        "Outsole": "Blown Rubber",
+        "Running Pace": "Jogging/Easy",
+        "Sustainability": "Recycled Materials"
+    },
+    "Gel Cumulus 26": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Asics FlyteFoam Blast Plus, Asics PureGEL",
+        "Heel Height": "37.5mm",
+        "Forefoot Height": "29.5mm",
+        "Drop": "8mm",
+        "Weight": "220g / 7.8oz",
+        "Surface": "Road",
+        "Running Pace": "Jogging/Easy"
+    },
+    "Gel Pulse 15": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Asics FlyteFoam",
+        "Surface": "Road",
+        "Sustainability": "Recycled Materials"
+    },
+    "Gel Excite 10": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Asics Amplifoam Plus",
+        "Surface": "Road"
+    },
+    "Novablast 4": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Asics FlyteFoam Blast Plus Eco",
+        "Heel Height": "41mm",
+        "Forefoot Height": "33mm",
+        "Drop": "8mm",
+        "Weight": "260g / 9.2oz (US 9)",
+        "Surface": "Road",
+        "Pronation": "Neutral",
+        "Flexibility": "7",
+        "Cushioning": "Plush",
+        "Toebox Width": "Medium",
+        "Toebox Volume": "Medium",
+        "Outsole": "Blown Rubber",
+        "Running Pace": "Speed Training/Tempo",
+        "Sustainability": "Recycled Materials"
+    },
+    "Metaspeed Sky Paris": {
+        "Support": "Neutral, Road Racing",
+        "Upper": "Mesh",
+        "Midsole": "Asics FlyteFoam Turbo Plus",
+        "Heel Height": "39.5mm",
+        "Forefoot Height": "34.5mm",
+        "Drop": "5mm",
+        "Surface": "Road",
+        "Running Pace": "Competition/Race",
+        "Sustainability": "Recycled Materials"
+    },
+    "Magic Speed 4": {
+        "Support": "Neutral, Road Racing",
+        "Upper": "Mesh",
+        "Midsole": "Asics FlyteFoam Blast Turbo",
+        "Heel Height": "44mm",
+        "Forefoot Height": "36mm",
+        "Drop": "8mm",
+        "Weight": "241g / 8.5oz (US 9)",
+        "Surface": "Road",
+        "Running Pace": "Speed Training/Tempo, Competition/Race"
+    },
+    "Noosa Tri 16": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Asics FlyteFoam Blast Plus",
+        "Surface": "Road",
+        "Running Pace": "Jogging/Easy, Speed Training/Tempo"
+    },
+    "Evoride Speed 2": {
+        "Support": "Neutral",
+        "Upper": "Woven",
+        "Midsole": "Asics FlyteFoam Blast",
+        "Drop": "5mm",
+        "Weight": "229g / 8.1oz",
+        "Surface": "Road",
+        "Running Pace": "Jogging/Easy",
+        "Sustainability": "Recycled Materials"
+    },
+    "Hyper Speed 4": {},
+    "Glideride 3": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Asics FlyteFoam, Asics FlyteFoam Blast",
+        "Drop": "6mm, 7mm"
+    },
+    "Novablast 4 TR": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Asics FlyteFoam Blast",
+        "Surface": "Road"
+    },
+    "Trabuco 12 GTX": {
+        "Support": "Neutral",
+        "Upper": "Gore-Tex",
+        "Midsole": "Asics FlyteFoam Blast Plus",
+        "Surface": "Trail/Off-Road",
+        "Outsole": "Blown Rubber",
+        "Running Pace": "Jogging/Easy",
+        "Sustainability": "Recycled Materials"
+    },
+    "Trabuco Max 3": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Asics FlyteFoam Blast Plus",
+        "Surface": "Trail/Off-Road",
+        "Sustainability": "Recycled Materials"
+    },
+    "Gel Trabuco 12": {
+        "Support": "Stability",
+        "Upper": "Mesh",
+        "Midsole": "Asics FlyteFoam Blast",
+        "Drop": "8mm",
+        "Weight": "314g / 11.1oz",
+        "Surface": "Trail/Off-Road",
+        "Outsole": "Blown Rubber",
+        "Running Pace": "Competition/Race"
+    },
+    "Trabuco Terra 2": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Asics FlyteFoam Blast",
+        "Surface": "Trail/Off-Road"
+    },
+    "Fuji Lite 4": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Asics FlyteFoam, Asics FlyteFoam Blast",
+        "Surface": "Trail/Off-Road",
+        "Sustainability": "Recycled Materials"
+    },
+    "Gel Sonoma 7 GTX": {
+        "Support": "Neutral",
+        "Upper": "Gore-Tex",
+        "Midsole": "Asics Amplifoam",
+        "Surface": "Trail/Off-Road",
+        "Sustainability": "Recycled Materials, Sustainable Manufacturing"
+    },
+    "Gel Sonoma 7": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Asics Amplifoam",
+        "Sustainability": "Recycled Materials, Sustainable Manufacturing"
+    },
+    "Metaspeed MD": {
+        "Event": "Sprint (100m-400m), Mid Distance (400m-1500m), Long Distance (1500m+)",
+        "Upper": "Mesh",
+        "Midsole": "Asics FlyteFoam Blast Turbo"
+    },
+    "Metaspeed SP": {
+        "Event": "Sprint (100m-400m), Mid Distance (400m-1500m), Long Distance (1500m+)",
+        "Upper": "Mesh",
+        "Midsole": "Asics FlyteFoam Blast Turbo"
+    },
+    "Hyper Sprint 8": {
+        "Event": "Sprint (100m-400m)"
+    },
+    "Hyer MD 8": {
+        "Event": "Mid Distance (400m-1500m)",
+        "Upper": "Mesh"
+    },
+    "Gel Firestorm 5": {
+        "Event": "Kids Athletics",
+        "Upper": "Synthetic Leather",
+        "Midsole": "Asics EVA"
+    },
+    "GT-2000 SX": {
+        "Support": "Stability",
+        "Upper": "Mesh",
+        "Midsole": "Asics FlyteFoam"
+    },
+    "Walkride FF": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Asics FlyteFoam"
+    },
+    "Gel-550 TR": {
+        "Support": "Stability",
+        "Upper": "Synthetic Leather",
+        "Midsole": "Asics FlyteFoam Propel"
+    },
+    "GT-1000 LE 2": {
+        "Support": "Neutral, Stability",
+        "Upper": "Mesh, Leather, Synthetic Leather",
+        "Midsole": "Asics FlyteFoam, Asics Amplifoam"
+    },
+    "Gel Trigger 12": {
+        "Support": "Stability",
+        "Upper": "Synthetic Leather",
+        "Midsole": "Asics Amplifoam, Asics SpEVA"
+    },
+    "Kayano 31 GS": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Asics FlyteFoam Blast Plus Eco",
+        "Surface": "Road",
+        "Running Pace": "Jogging/Easy",
+        "Sustainability": "Recycled Materials, Sustainable Manufacturing"
+    },
+    "GT-2000 12 GS": {
+        "Support": "Stability",
+        "Upper": "Mesh",
+        "Midsole": "Asics FlyteFoam",
+        "Surface": "Road",
+        "Running Pace": "Jogging/Easy"
+    },
+    "Cumulus 26 GS": {},
+    "Novablast 4 GS": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Asics FlyteFoam Blast",
+        "Surface": "Road"
+    },
+    "Gel-550 TR GS & PS": {
+        "Support": "Stability",
+        "Upper": "Synthetic Leather",
+        "Midsole": "Asics Amplifoam"
+    },
+    "Supernova Prima": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Adidas Dreamstrike+",
+        "Heel Height": "38mm",
+        "Forefoot Height": "30mm",
+        "Drop": "8mm",
+        "Surface": "Road",
+        "Flexibility": "7",
+        "Cushioning": "Balanced",
+        "Toebox Width": "Medium",
+        "Toebox Volume": "Medium",
+        "Running Pace": "Jogging/Easy",
+        "Sustainability": "Recycled Materials, Sustainable Materials"
+    },
+    "Adizero Boston 12": {
+        "Support": "Neutral, Lightweight",
+        "Upper": "Mesh",
+        "Midsole": "Adidas Lightstrike, Adidas Lightstrike Pro",
+        "Heel Height": "38mm",
+        "Forefoot Height": "31mm",
+        "Drop": "7mm",
+        "Weight": "270g (9.5 oz)",
+        "Surface": "Road",
+        "Sustainability": "Recycled Materials"
+    },
+    "Adizero SL2": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Adidas Lightstrike Pro",
+        "Heel Height": "36mm",
+        "Forefoot Height": "27mm",
+        "Drop": "9mm",
+        "Weight": "238g",
+        "Surface": "Road",
+        "Running Pace": "Jogging/Easy",
+        "Sustainability": "Recycled Materials"
+    },
+    "Adizero Adios Pro 3": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Adidas Lightstrike Pro",
+        "Heel Height": "39.5mm",
+        "Forefoot Height": "33mm",
+        "Drop": "7mm",
+        "Weight": "215g / 7.6 oz (US 9)",
+        "Surface": "Road",
+        "Pronation": "Neutral",
+        "Running Pace": "Competition/Race",
+        "Sustainability": "Recycled Materials"
+    },
+    "Adizero Prime X 2 strung": {
+        "Support": "Neutral, Road Racing",
+        "Upper": "Mesh",
+        "Midsole": "Adidas Lightstrike Pro",
+        "Heel Height": "50mm",
+        "Forefoot Height": "43.5mm",
+        "Weight": "295g / 10.4oz",
+        "Pronation": "Neutral",
+        "Running Pace": "Competition/Race"
+    },
+    "Takumi Sen 10": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Adidas Lightstrike Pro",
+        "Heel Height": "34mm",
+        "Forefoot Height": "27mm",
+        "Drop": "7mm",
+        "Weight": "210g / 7.4oz",
+        "Surface": "Road",
+        "Running Pace": "Speed Training/Tempo, Competition/Race"
+    },
+    "Prime SP 3": {
+        "Event": "Sprint (100m-400m)",
+        "Midsole": "Adidas Lightstrike Pro",
+        "Sustainability": "Recycled Materials"
+    },
+    "Adizero Finesse": {
+        "Event": "Sprint (100m-400m)",
+        "Upper": "Mesh",
+        "Midsole": "Adidas Lightstrike",
+        "Sustainability": "Recycled Materials"
+    },
+    "Adizero Ambition": {
+        "Event": "Mid Distance (400m-1500m)",
+        "Upper": "Mesh",
+        "Midsole": "Adidas Lightstrike Pro"
+    },
+    "Adizero Avanti": {},
+    "Adizero TJ/PV": {
+        "Event": "Jumping",
+        "Upper": "Mesh",
+        "Midsole": "Adidas Lightstrike Pro",
+        "Sustainability": "Recycled Materials"
+    },
+    "Sprintstar": {
+        "Event": "Sprint (100m-400m)",
+        "Upper": "Mesh",
+        "Sustainability": "Recycled Materials"
+    },
+    "DistanceStar": {
+        "Event": "Sprint (100m-400m), Mid Distance (400m-1500m)",
+        "Upper": "Mesh"
+    },
+    "Throwstar": {
+        "Event": "Throwing",
+        "Upper": "Mesh",
+        "Sustainability": "Recycled Materials"
+    },
+    "Via Olympus 2": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Altra EGO Max",
+        "Heel Height": "33mm",
+        "Forefoot Height": "33mm",
+        "Drop": "0mm",
+        "Weight": "323g / 11.4oz",
+        "Surface": "Road",
+        "Outsole": "Blown Rubber",
+        "Running Pace": "Jogging/Easy"
+    },
+    "Torin 7": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Altra EGO Max",
+        "Heel Height": "30mm",
+        "Forefoot Height": "30mm",
+        "Drop": "0mm",
+        "Weight": "278.8g / 9.87oz",
+        "Surface": "Road"
+    },
+    "Escalante 4": {
+        "Support": "Neutral",
+        "Upper": "Knit",
+        "Midsole": "Altra EGO",
+        "Heel Height": "24mm",
+        "Forefoot Height": "24mm",
+        "Drop": "0mm",
+        "Surface": "Road",
+        "Running Pace": "Jogging/Easy"
+    },
+    "Escalante Racer 2": {
+        "Support": "Neutral",
+        "Upper": "Knit",
+        "Midsole": "Altra EGO",
+        "Heel Height": "22mm",
+        "Forefoot Height": "22mm",
+        "Drop": "0mm",
+        "Weight": "249g / 8.8oz",
+        "Surface": "Road",
+        "Running Pace": "Speed Training/Tempo"
+    },
+    "Experience Flow": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Altra EVA",
+        "Heel Height": "32mm",
+        "Forefoot Height": "30mm",
+        "Drop": "4mm",
+        "Weight": "240g /8.5oz",
+        "Surface": "Road",
+        "Pronation": "Neutral",
+        "Toebox Width": "Wide",
+        "Toebox Volume": "Roomy",
+        "Outsole": "Blown Rubber",
+        "Sustainability": "Recycled Materials"
+    },
+    "Olympus 6": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Altra EVA",
+        "Heel Height": "33mm",
+        "Forefoot Height": "33mm",
+        "Drop": "0mm",
+        "Weight": "345g / 12.2oz",
+        "Surface": "Trail/Off-Road"
+    },
+    "Olympus 5": {
+        "Support": "Neutral",
+        "Upper": "Mesh, Gore-Tex",
+        "Midsole": "Altra EVA",
+        "Heel Height": "33mm",
+        "Forefoot Height": "33mm",
+        "Drop": "0mm",
+        "Weight": "350g / 12.3oz (US 9)"
+    },
+    "Lone Peak 8": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Altra EGO",
+        "Heel Height": "25mm",
+        "Forefoot Height": "25mm",
+        "Drop": "0mm",
+        "Weight": "286g / 10.1oz",
+        "Surface": "Trail/Off-Road",
+        "Running Pace": "Jogging/Easy"
+    },
+    "Lone Peak 7": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Altra EGO",
+        "Heel Height": "25mm",
+        "Forefoot Height": "25mm",
+        "Drop": "0mm",
+        "Weight": "243g / 8.6oz",
+        "Surface": "Trail/Off-Road",
+        "Running Pace": "Jogging/Easy"
+    },
+    "Experience Wild": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Altra EVA",
+        "Heel Height": "32mm",
+        "Forefoot Height": "28mm",
+        "Drop": "4mm",
+        "Weight": "283g (10 oz)",
+        "Surface": "Trail/Off-Road",
+        "Running Pace": "Jogging/Easy",
+        "Sustainability": "Recycled Materials"
+    },
+    "Ghost Max 2": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Brooks DNA Loft v3",
+        "Heel Height": "39mm",
+        "Forefoot Height": "33mm",
+        "Drop": "6mm",
+        "Weight": "306g / 10.8oz",
+        "Surface": "Road",
+        "Sustainability": "Recycled Materials"
+    },
+    "Glycerin 21": {
+        "Support": "Neutral",
+        "Upper": "Knit",
+        "Midsole": "Brooks DNA Loft v3",
+        "Heel Height": "28mm",
+        "Forefoot Height": "18mm",
+        "Drop": "10mm",
+        "Weight": "283g / 10oz (US 9)",
+        "Surface": "Road",
+        "Flexibility": "6",
+        "Cushioning": "Balanced",
+        "Toebox Width": "Medium",
+        "Toebox Volume": "Medium",
+        "Outsole": "Blown Rubber",
+        "Running Pace": "Jogging/Easy",
+        "Sustainability": "Recycled Materials"
+    },
+    "Ghost 16": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Brooks DNA Loft v3",
+        "Heel Height": "28mm",
+        "Forefoot Height": "16mm",
+        "Drop": "12mm",
+        "Weight": "241g / 8.5oz",
+        "Surface": "Road",
+        "Running Pace": "Jogging/Easy",
+        "Sustainability": "Certified Carbon Neutral, Recycled Materials"
+    },
+    "Glycerin GTS 21": {
+        "Support": "Stability",
+        "Upper": "Mesh",
+        "Midsole": "Brooks DNA Loft v3",
+        "Heel Height": "28mm",
+        "Forefoot Height": "18mm",
+        "Drop": "10mm",
+        "Weight": "261g / 9.2oz",
+        "Surface": "Road",
+        "Running Pace": "Jogging/Easy",
+        "Sustainability": "Recycled Materials"
+    },
+    "Adrenaline GTS 23": {
+        "Support": "Stability",
+        "Upper": "Mesh, Knit",
+        "Midsole": "Brooks DNA Amp V2, Brooks DNA Loft v2",
+        "Heel Height": "24mm",
+        "Forefoot Height": "12mm",
+        "Drop": "12mm",
+        "Weight": "258g / 9.1oz",
+        "Surface": "Road",
+        "Cushioning": "Balanced",
+        "Toebox Width": "Medium",
+        "Toebox Volume": "Roomy",
+        "Running Pace": "Jogging/Easy",
+        "Sustainability": "Recycled Materials"
+    },
+    "Hyperion Elite 4": {
+        "Support": "Neutral, Road Racing",
+        "Upper": "Mesh",
+        "Midsole": "Brooks DNA Flash v2",
+        "Drop": "8mm",
+        "Weight": "221g / 7.8oz",
+        "Surface": "Road",
+        "Flexibility": "1",
+        "Cushioning": "Responsive",
+        "Toebox Width": "Narrow",
+        "Toebox Volume": "Medium",
+        "Running Pace": "Competition/Race",
+        "Sustainability": "Sustainable Materials"
+    },
+    "Hyperion Max 2": {
+        "Support": "Neutral, Road Racing",
+        "Upper": "Mesh",
+        "Midsole": "Brooks DNA Flash v2",
+        "Heel Height": "30mm",
+        "Forefoot Height": "24mm",
+        "Drop": "6mm",
+        "Weight": "258g / 9.1oz",
+        "Surface": "Road",
+        "Running Pace": "Speed Training/Tempo",
+        "Sustainability": "Recycled Materials"
+    },
+    "Hyperion 2": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Brooks DNA Flash v2",
+        "Heel Height": "26mm",
+        "Forefoot Height": "18mm",
+        "Drop": "8mm",
+        "Weight": "176g / 6.2oz",
+        "Surface": "Road",
+        "Sustainability": "Recycled Materials"
+    },
+    "Caldera 7": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Brooks DNA Loft v3",
+        "Heel Height": "26mm",
+        "Forefoot Height": "20mm",
+        "Drop": "6mm",
+        "Weight": "281g",
+        "Surface": "Road",
+        "Sustainability": "Recycled Materials"
+    },
+    "Cascadia 18": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Brooks DNA Loft v2",
+        "Heel Height": "20mm",
+        "Forefoot Height": "12mm",
+        "Drop": "8mm",
+        "Weight": "286g / 10.1oz",
+        "Surface": "Road",
+        "Sustainability": "Recycled Materials, Sustainable Manufacturing"
+    },
+    "Cascadia 18 GTX": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Brooks DNA Loft v2",
+        "Heel Height": "20mm",
+        "Forefoot Height": "12mm",
+        "Drop": "8mm",
+        "Weight": "320g / 11.3oz",
+        "Surface": "Road",
+        "Sustainability": "Recycled Materials, Sustainable Manufacturing"
+    },
+    "Cascadia 17": {
+        "Support": "Neutral",
+        "Upper": "Mesh, Gore-Tex",
+        "Midsole": "Brooks DNA Loft v2",
+        "Heel Height": "20mm",
+        "Forefoot Height": "12mm",
+        "Drop": "8mm",
+        "Weight": "278g / 9.8oz",
+        "Surface": "Trail/Off-Road",
+        "Cushioning": "Firm",
+        "Toebox Width": "Wide",
+        "Toebox Volume": "Roomy",
+        "Running Pace": "Jogging/Easy",
+        "Sustainability": "Recycled Materials"
+    },
+    "Divide 4": {
+        "Support": "Neutral",
+        "Upper": "Mesh, Gore-Tex",
+        "Midsole": "Brooks DNA Loft",
+        "Heel Height": "20m",
+        "Forefoot Height": "12mm",
+        "Drop": "8mm",
+        "Weight": "264g / 9.3oz",
+        "Surface": "Trail/Off-Road",
+        "Running Pace": "Jogging/Easy"
+    },
+    "Rincon 4": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Hoka EVA",
+        "Drop": "5mm",
+        "Weight": "228g / 8oz"
+    },
+    "Kawana 2": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Hoka EVA, Hoka CMEVA",
+        "Drop": "5mm",
+        "Weight": "252g / 8.9oz",
+        "Surface": "Road",
+        "Cushioning": "Balanced"
+    },
+    "Bondi 8": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Hoka EVA",
+        "Heel Height": "31mm",
+        "Forefoot Height": "27mm",
+        "Drop": "4mm",
+        "Weight": "260g / 9.2oz (US 7)",
+        "Surface": "Road"
+    },
+    "Clifton 9": {
+        "Support": "Neutral",
+        "Upper": "Knit",
+        "Midsole": "Hoka CMEVA",
+        "Heel Height": "29mm",
+        "Forefoot Height": "24mm",
+        "Drop": "4mm, 5mm",
+        "Weight": "205g / 7.3oz",
+        "Surface": "Road",
+        "Flexibility": "3",
+        "Cushioning": "Plush",
+        "Toebox Width": "Narrow, Medium",
+        "Toebox Volume": "Roomy",
+        "Running Pace": "Jogging/Easy",
+        "Sustainability": "Recycled Materials"
+    },
+    "Clifton 9 GTX": {
+        "Support": "Neutral",
+        "Upper": "Gore-Tex",
+        "Midsole": "Hoka CMEVA",
+        "Heel Height": "32mm",
+        "Forefoot Height": "27mm",
+        "Drop": "5mm",
+        "Weight": "272g/ 9.6oz",
+        "Surface": "Road",
+        "Flexibility": "3",
+        "Cushioning": "Plush",
+        "Toebox Width": "Narrow, Medium",
+        "Toebox Volume": "Roomy",
+        "Running Pace": "Jogging/Easy",
+        "Sustainability": "Recycled Materials"
+    },
+    "Arahi 7": {
+        "Support": "Stability",
+        "Upper": "Knit",
+        "Midsole": "Hoka CMEVA",
+        "Heel Height": "34mm",
+        "Forefoot Height": "29mm",
+        "Drop": "5mm",
+        "Weight": "228g / 8.1oz",
+        "Surface": "Road",
+        "Pronation": "Pronated",
+        "Sustainability": "Recycled Materials"
+    },
+    "Ora Recovery Slide 3": {
+        "Midsole": "Hoka EVA",
+        "Sustainability": "Recycled Materials"
+    },
+    "Mach 6": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Hoka EVA",
+        "Heel Height": "37mm",
+        "Forefoot Height": "32mm",
+        "Drop": "5mm",
+        "Weight": "232g / 8.2oz (US 10)",
+        "Surface": "Road",
+        "Running Pace": "Speed Training/Tempo"
+    },
+    "Skyflow": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Drop": "5mm",
+        "Weight": "244g (8.6oz)",
+        "Surface": "Road",
+        "Cushioning": "Balanced",
+        "Sustainability": "Recycled Materials"
+    },
+    "Skyward X": {
+        "Support": "Neutral, Road Racing",
+        "Upper": "Mesh",
+        "Midsole": "Hoka EVA",
+        "Drop": "5mm",
+        "Weight": "320g / 11.3oz (US 9.5)",
+        "Surface": "Road",
+        "Outsole": "Blown Rubber",
+        "Running Pace": "Speed Training/Tempo"
+    },
+    "Cielo X1": {
+        "Support": "Neutral, Road Racing",
+        "Upper": "Knit",
+        "Drop": "7mm",
+        "Weight": "264g / 9.3oz",
+        "Surface": "Road",
+        "Cushioning": "Responsive",
+        "Running Pace": "Speed Training/Tempo"
+    },
+    "Rocket X2": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Drop": "5mm"
+    },
+    "Mach X": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Hoka PROFLY X",
+        "Heel Height": "39mm",
+        "Forefoot Height": "34mm",
+        "Drop": "5mm",
+        "Weight": "266g / 9.4oz (US 9.5)",
+        "Surface": "Road",
+        "Sustainability": "Recycled Materials, Sustainable Materials"
+    },
+    "Mach X 2": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Hoka PROFLY X",
+        "Heel Height": "39mm",
+        "Forefoot Height": "34mm",
+        "Drop": "5mm",
+        "Weight": "266g / 9.4oz (US 9.5)",
+        "Surface": "Road",
+        "Sustainability": "Recycled Materials, Sustainable Materials"
+    },
+    "Bondi SR": {
+        "Upper": "Mesh, Leather",
+        "Midsole": "Hoka EVA"
+    },
+    "Speedgoat 6": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Hoka CMEVA",
+        "Heel Height": "40mm",
+        "Forefoot Height": "35mm",
+        "Drop": "5mm",
+        "Weight": "278g / 9.8oz",
+        "Surface": "Trail/Off-Road",
+        "Sustainability": "Recycled Materials"
+    },
+    "Speedgoat 5": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Hoka CMEVA",
+        "Heel Height": "38mm",
+        "Forefoot Height": "34mm",
+        "Drop": "4mm",
+        "Weight": "285g / 10.05oz (US 9)",
+        "Surface": "Trail/Off-Road",
+        "Sustainability": "Recycled Materials"
+    },
+    "Speedgoat 5 GTX": {
+        "Support": "Neutral",
+        "Upper": "Gore-Tex",
+        "Midsole": "Hoka CMEVA",
+        "Drop": "4mm",
+        "Weight": "326g (11.5oz)",
+        "Surface": "Trail/Off-Road"
+    },
+    "Torrent 3": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Hoka PROFLY",
+        "Heel Height": "23mm",
+        "Forefoot Height": "18mm",
+        "Drop": "5mm",
+        "Weight": "248g / 8.7oz"
+    },
+    "Challenger ATR 7": {
+        "Support": "Neutral",
+        "Upper": "Mesh, Gore-Tex",
+        "Midsole": "Hoka CMEVA",
+        "Drop": "5mm",
+        "Weight": "207g / 7.3oz",
+        "Surface": "Road",
+        "Sustainability": "Recycled Materials"
+    },
+    "Stinson 7": {
+        "Support": "Stability",
+        "Midsole": "Hoka CMEVA",
+        "Heel Height": "43.5mm",
+        "Forefoot Height": "38.5mm",
+        "Drop": "5mm",
+        "Weight": "300g",
+        "Surface": "Trail/Off-Road"
+    },
+    "Mafate Speed 4": {},
+    "Kaha 2 Low GTX": {
+        "Support": "Neutral",
+        "Upper": "Leather"
+    },
+    "Kaha 2 GTX": {
+        "Upper": "Gore-Tex",
+        "Midsole": "Hoka CMEVA",
+        "Sustainability": "Recycled Materials, Sustainable Materials"
+    },
+    "Anacapa 2 Low GTX": {
+        "Upper": "Gore-Tex",
+        "Midsole": "Hoka EVA",
+        "Drop": "7mm",
+        "Weight": "350g (12.4oz)",
+        "Surface": "Trail/Off-Road"
+    },
+    "Triumph 22": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Saucony PWRRUN pb",
+        "Heel Height": "37mm",
+        "Forefoot Height": "27mm",
+        "Drop": "10mm",
+        "Weight": "286g / 10.1oz",
+        "Surface": "Road",
+        "Sustainability": "Recycled Materials"
+    },
+    "Triumph 21": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Saucony PWRRUN+",
+        "Heel Height": "37mm",
+        "Forefoot Height": "27mm",
+        "Drop": "10mm",
+        "Weight": "279g / 9.8oz",
+        "Surface": "Road",
+        "Cushioning": "Plush",
+        "Toebox Width": "Medium",
+        "Toebox Volume": "Roomy",
+        "Running Pace": "Jogging/Easy",
+        "Sustainability": "Recycled Materials"
+    },
+    "Hurricane 24": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Saucony PWRRUN, Saucony PWRRUN pb",
+        "Heel Height": "38mm",
+        "Forefoot Height": "32mm",
+        "Drop": "6mm",
+        "Weight": "302g / 10.6oz",
+        "Surface": "Road",
+        "Sustainability": "Recycled Materials"
+    },
+    "Ride 17": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Saucony PWRRUN+",
+        "Heel Height": "35mm",
+        "Forefoot Height": "27mm",
+        "Drop": "8mm",
+        "Weight": "282g / 9.9oz",
+        "Surface": "Road",
+        "Pronation": "Neutral",
+        "Flexibility": "6",
+        "Cushioning": "Balanced",
+        "Toebox Width": "Medium",
+        "Toebox Volume": "Medium",
+        "Outsole": "Blown Rubber",
+        "Running Pace": "Jogging/Easy",
+        "Sustainability": "Recycled Materials"
+    },
+    "Guide 17": {
+        "Support": "Stability",
+        "Upper": "Mesh",
+        "Heel Height": "35mm",
+        "Forefoot Height": "29mm",
+        "Drop": "6mm",
+        "Weight": "269g / 9.4oz",
+        "Surface": "Road",
+        "Pronation": "Pronated",
+        "Flexibility": "6",
+        "Cushioning": "Plush",
+        "Toebox Width": "Medium",
+        "Toebox Volume": "Medium",
+        "Outsole": "Blown Rubber",
+        "Running Pace": "Jogging/Easy",
+        "Sustainability": "Recycled Materials"
+    },
+    "Echelon 9": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Saucony PWRRUN",
+        "Heel Height": "35mm",
+        "Forefoot Height": "27mm",
+        "Drop": "8mm",
+        "Weight": "269g / 9.5 oz"
+    },
+    "Endorphin Elite": {
+        "Support": "Neutral, Lightweight, Road Racing",
+        "Upper": "Mesh",
+        "Midsole": "Saucony PWRRUN HG",
+        "Heel Height": "39.5mm",
+        "Forefoot Height": "31.5mm",
+        "Drop": "8mm",
+        "Weight": "204g / 7.2oz",
+        "Sustainability": "Recycled Materials"
+    },
+    "Endorphin Pro 4": {
+        "Support": "Neutral, Lightweight, Road Racing",
+        "Upper": "Mesh",
+        "Midsole": "Saucony PWRRUN pb, Saucony PWRRUN HG",
+        "Heel Height": "39.5mm",
+        "Forefoot Height": "31.5mm",
+        "Drop": "8mm",
+        "Weight": "212g / 7.5oz",
+        "Surface": "Road",
+        "Flexibility": "3",
+        "Cushioning": "Balanced",
+        "Toebox Width": "Narrow",
+        "Toebox Volume": "Medium",
+        "Outsole": "Blown Rubber",
+        "Running Pace": "Competition/Race",
+        "Sustainability": "Sustainable Manufacturing"
+    },
+    "Endorphin Speed 4": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Saucony PWRRUN pb",
+        "Heel Height": "36mm",
+        "Forefoot Height": "28mm",
+        "Drop": "8mm",
+        "Weight": "233g / 8.2oz",
+        "Surface": "Road",
+        "Flexibility": "4",
+        "Cushioning": "Responsive",
+        "Toebox Width": "Narrow",
+        "Toebox Volume": "Medium",
+        "Outsole": "Blown Rubber",
+        "Running Pace": "Speed Training/Tempo"
+    },
+    "Kinvara 15": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Saucony PWRRUN",
+        "Heel Height": "31mm",
+        "Forefoot Height": "27mm",
+        "Drop": "4mm",
+        "Weight": "175g / 6.2oz",
+        "Surface": "Road"
+    },
+    "Kinvara 14": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Saucony PWRRUN",
+        "Heel Height": "31mm",
+        "Forefoot Height": "27mm",
+        "Drop": "4mm",
+        "Weight": "175g / 6.2oz",
+        "Surface": "Road"
+    },
+    "Xodus Ultra 3": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Saucony PWRRUN, Saucony PWRRUN pb",
+        "Drop": "6mm",
+        "Surface": "Trail/Off-Road",
+        "Running Pace": "Jogging/Easy"
+    },
+    "Xodus Ultra 2": {
+        "Support": "Neutral"
+    },
+    "Peregrine 14": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Saucony PWRRUN",
+        "Heel Height": "28mm",
+        "Forefoot Height": "24mm",
+        "Drop": "4mm",
+        "Weight": "267g / 9.4oz",
+        "Surface": "Trail/Off-Road",
+        "Running Pace": "Jogging/Easy",
+        "Sustainability": "Recycled Materials"
+    },
+    "Peregrine 14 GTX": {
+        "Support": "Neutral",
+        "Upper": "Gore-Tex",
+        "Midsole": "Saucony PWRRUN",
+        "Heel Height": "28mm",
+        "Forefoot Height": "24mm",
+        "Drop": "4mm",
+        "Surface": "Trail/Off-Road",
+        "Running Pace": "Jogging/Easy",
+        "Sustainability": "Recycled Materials"
+    },
+    "Peregrine 13": {
+        "Support": "Neutral",
+        "Upper": "Mesh, Gore-Tex",
+        "Midsole": "Saucony PWRRUN, Saucony PWRRUN+",
+        "Heel Height": "28mm",
+        "Forefoot Height": "24mm",
+        "Drop": "4mm",
+        "Weight": "238g / 9oz",
+        "Sustainability": "Recycled Materials"
+    },
+    "Terminal VT": {
+        "Event": "Mid Distance (400m-1500m)",
+        "Upper": "Mesh",
+        "Midsole": "Saucony PWRRUN HG",
+        "Sustainability": "Recycled Materials"
+    },
+    "Vomero 17": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Nike ZoomX",
+        "Heel Height": "39mm",
+        "Forefoot Height": "29mm",
+        "Drop": "10mm",
+        "Weight": "244g / 8.6oz",
+        "Surface": "Road",
+        "Pronation": "Neutral",
+        "Cushioning": "Balanced",
+        "Toebox Width": "Medium",
+        "Toebox Volume": "Medium",
+        "Running Pace": "Jogging/Easy",
+        "Sustainability": "Recycled Materials"
+    },
+    "Air Zoom Pegasus 41": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Nike React, Nike Zoom Air",
+        "Surface": "Road"
+    },
+    "Air Zoom Pegasus 40": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Nike React, Nike Zoom Air",
+        "Surface": "Road"
+    },
+    "Invincible 3": {
+        "Support": "Neutral",
+        "Upper": "Knit",
+        "Midsole": "Nike ZoomX",
+        "Heel Height": "40mm",
+        "Forefoot Height": "31mm",
+        "Drop": "9mm",
+        "Surface": "Road"
+    },
+    "Infinity Run 4": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Heel Height": "39mm",
+        "Forefoot Height": "30mm",
+        "Drop": "9mm",
+        "Weight": "314g / 11.1oz",
+        "Surface": "Road",
+        "Sustainability": "Recycled Materials"
+    },
+    "Alphafly 3": {
+        "Support": "Neutral, Lightweight, Road Racing",
+        "Midsole": "Nike Zoom Air, Nike ZoomX",
+        "Surface": "Road",
+        "Cushioning": "Responsive",
+        "Running Pace": "Competition/Race"
+    },
+    "Vaporfly 3": {
+        "Support": "Neutral, Road Racing",
+        "Upper": "Mesh",
+        "Midsole": "Nike ZoomX",
+        "Heel Height": "40mm",
+        "Forefoot Height": "32mm",
+        "Drop": "8mm",
+        "Weight": "166g / 5.8oz",
+        "Surface": "Road",
+        "Cushioning": "Plush",
+        "Toebox Width": "Medium",
+        "Toebox Volume": "Medium",
+        "Running Pace": "Competition/Race"
+    },
+    "Zegama 2": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Nike ZoomX",
+        "Drop": "4mm",
+        "Surface": "Trail/Off-Road",
+        "Running Pace": "Jogging/Easy"
+    },
+    "Zegama": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Nike ZoomX",
+        "Heel Height": "37 mm",
+        "Forefoot Height": "33 mm",
+        "Drop": "4mm",
+        "Weight": "290 g (10.2 oz)",
+        "Surface": "Trail/Off-Road"
+    },
+    "Maxfly 2": {
+        "Event": "Sprint (100m-400m)",
+        "Upper": "Mesh",
+        "Midsole": "Nike Zoom Air"
+    },
+    "Victory 2": {
+        "Event": "Mid Distance (400m-1500m)",
+        "Upper": "Knit",
+        "Midsole": "Nike Zoom Air, Nike ZoomX"
+    },
+    "Air Victory": {
+        "Event": "Mid Distance (400m-1500m), Long Distance (1500m+)",
+        "Midsole": "Nike Zoom Air, Nike ZoomX"
+    },
+    "Dragonfly 2": {
+        "Event": "Long Distance (1500m+)",
+        "Upper": "Mesh",
+        "Midsole": "Nike ZoomX"
+    },
+    "Dragonfly": {
+        "Event": "Long Distance (1500m+)",
+        "Upper": "Mesh",
+        "Midsole": "Nike ZoomX"
+    },
+    "Dragonfly XC": {
+        "Event": "Cross Country",
+        "Upper": "Mesh",
+        "Midsole": "Nike ZoomX"
+    },
+    "Rival waffle 6": {
+        "Event": "Long Distance (1500m+), Cross Country",
+        "Upper": "Mesh"
+    },
+    "Rival sprint": {
+        "Event": "Sprint (100m-400m), Jumping",
+        "Upper": "Mesh"
+    },
+    "Rival distance": {
+        "Event": "Sprint (100m-400m), Mid Distance (400m-1500m), Long Distance (1500m+), Cross Country, Jumping",
+        "Upper": "Mesh"
+    },
+    "Rival multi": {
+        "Event": "Sprint (100m-400m), Mid Distance (400m-1500m), Long Distance (1500m+), Cross Country, Jumping",
+        "Upper": "Mesh"
+    },
+    "Zoom rotational 6": {
+        "Event": "Throwing",
+        "Upper": "Mesh"
+    },
+    "Ja fly 4": {
+        "Event": "Sprint (100m-400m)",
+        "Upper": "Mesh"
+    },
+    "Mamba 6": {
+        "Event": "Long Distance (1500m+)",
+        "Upper": "Mesh"
+    },
+    "LJ Elite": {
+        "Event": "Jumping",
+        "Midsole": "Nike Zoom Air"
+    },
+    "Triple jump elite 2": {
+        "Event": "Jumping",
+        "Upper": "Synthetic Leather"
+    },
+    "MagMax": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Puma NITRO Elite",
+        "Heel Height": "46mm",
+        "Forefoot Height": "38mm",
+        "Drop": "8mm",
+        "Weight": "290g / 10.2oz",
+        "Surface": "Road",
+        "Running Pace": "Jogging/Easy",
+        "Sustainability": "Recycled Materials"
+    },
+    "Magnify Nitro Tech 2": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Puma NITRO Foam",
+        "Drop": "10mm",
+        "Weight": "274g / 9.7oz",
+        "Surface": "Road"
+    },
+    "ForeverRun Nitro": {
+        "Support": "Stability",
+        "Upper": "Mesh",
+        "Midsole": "Puma NITRO Foam",
+        "Heel Height": "35.5mm",
+        "Forefoot Height": "25.5mm",
+        "Drop": "10mm",
+        "Weight": "272g / 9.6oz",
+        "Surface": "Road",
+        "Outsole": "Blown Rubber",
+        "Running Pace": "Jogging/Easy"
+    },
+    "Velocity Nitro 3": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Puma NITRO Foam",
+        "Heel Height": "36mm",
+        "Forefoot Height": "26mm",
+        "Drop": "10mm",
+        "Weight": "260g / 9.17oz",
+        "Surface": "Road",
+        "Running Pace": "Jogging/Easy"
+    },
+    "Deviate Nitro Elite 3": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Puma NITRO Elite",
+        "Heel Height": "36",
+        "Forefoot Height": "30",
+        "Drop": "8mm",
+        "Weight": "185g / 6.5oz",
+        "Surface": "Road"
+    },
+    "Fast-R 2": {
+        "Support": "Neutral, Road Racing",
+        "Upper": "Mesh",
+        "Heel Height": "40mm",
+        "Forefoot Height": "32mm",
+        "Drop": "8mm",
+        "Weight": "240g / 8.46oz",
+        "Running Pace": "Competition/Race"
+    },
+    "Deviate Nitro Elite 2": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Puma NITRO Elite",
+        "Heel Height": "36",
+        "Forefoot Height": "30",
+        "Drop": "8mm",
+        "Weight": "185g / 6.5oz",
+        "Surface": "Road"
+    },
+    "Deviate Nitro 2": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Puma NITRO Elite",
+        "Drop": "8mm",
+        "Surface": "Road"
+    },
+    "Evospeed Sprint Nitro 2": {
+        "Event": "Sprint (100m-400m)",
+        "Upper": "Mesh",
+        "Midsole": "Puma NITRO Elite"
+    },
+    "EvoSpeed Tokyo Future 4": {
+        "Event": "Sprint (100m-400m)",
+        "Upper": "Mesh"
+    },
+    "Evospeed Sprint 14": {
+        "Event": "Sprint (100m-400m), Mid Distance (400m-1500m), Jumping"
+    },
+    "Evospeed Star 8": {
+        "Event": "Sprint (100m-400m), Mid Distance (400m-1500m), Long Distance (1500m+), Jumping",
+        "Upper": "Mesh"
+    },
+    "Evospeed Distance 11": {
+        "Event": "Mid Distance (400m-1500m), Long Distance (1500m+)",
+        "Upper": "Mesh"
+    },
+    "Evospeed Prep Sprint 3": {
+        "Event": "Sprint (100m-400m)",
+        "Upper": "Synthetic Leather"
+    },
+    "Cloudmonster Hyper": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "On Cloudtec, On Helion",
+        "Heel Height": "38mm",
+        "Forefoot Height": "32mm",
+        "Drop": "6mm",
+        "Weight": "270g / 9.5oz (US 9)",
+        "Surface": "Road",
+        "Sustainability": "Recycled Materials"
+    },
+    "Cloudmonster 2": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "On Cloudtec, On Helion",
+        "Heel Height": "35mm",
+        "Forefoot Height": "29mm",
+        "Drop": "6mm",
+        "Weight": "295g / 10.4oz",
+        "Surface": "Road",
+        "Sustainability": "Recycled Materials"
+    },
+    "Cloud X 4": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "On Helion",
+        "Drop": "7mm",
+        "Weight": "288g / 10.2oz",
+        "Sustainability": "Recycled Materials, Sustainable Manufacturing"
+    },
+    "Cloud 5": {
+        "Support": "Neutral, Lightweight",
+        "Upper": "Mesh",
+        "Midsole": "On Cloudtec",
+        "Drop": "8mm",
+        "Weight": "203g / 7.16oz",
+        "Surface": "Road",
+        "Sustainability": "Recycled Materials"
+    },
+    "Cloudsurfer Next": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "On Helion",
+        "Heel Height": "37mm",
+        "Forefoot Height": "31mm",
+        "Drop": "6mm",
+        "Weight": "266g / 9.4 oz",
+        "Surface": "Road",
+        "Running Pace": "Jogging/Easy",
+        "Sustainability": "Recycled Materials"
+    },
+    "Cloudflow 4": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "On Cloudtec, On Helion",
+        "Drop": "8mm",
+        "Weight": "235g / 8.3oz",
+        "Surface": "Road",
+        "Sustainability": "Recycled Materials"
+    },
+    "Cloudflyer 4": {},
+    "Cloudrunner 2": {
+        "Support": "Stability",
+        "Upper": "Mesh",
+        "Midsole": "On Cloudtec, On Helion",
+        "Heel Height": "31mm",
+        "Forefoot Height": "21mm",
+        "Drop": "10mm",
+        "Weight": "230g / 8.1oz",
+        "Surface": "Road",
+        "Running Pace": "Jogging/Easy",
+        "Sustainability": "Recycled Materials"
+    },
+    "Cloudsurfer 7": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "On Cloudtec",
+        "Drop": "10mm",
+        "Weight": "245g / 8.65oz",
+        "Surface": "Road",
+        "Cushioning": "Balanced",
+        "Toebox Width": "Medium",
+        "Toebox Volume": "Medium",
+        "Running Pace": "Jogging/Easy",
+        "Sustainability": "Recycled Materials, Sustainable Manufacturing"
+    },
+    "Cloudeclipse": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "On Cloudtec, On Helion",
+        "Drop": "6mm",
+        "Weight": "285g / 10.05oz",
+        "Surface": "Road",
+        "Pronation": "Neutral",
+        "Flexibility": "3",
+        "Cushioning": "Plush",
+        "Toebox Width": "Medium",
+        "Toebox Volume": "Roomy",
+        "Outsole": "Blown Rubber",
+        "Running Pace": "Jogging/Easy",
+        "Sustainability": "Recycled Materials, Sustainable Manufacturing"
+    },
+    "Cloudstratus 3": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "On Cloudtec",
+        "Drop": "6mm",
+        "Weight": "290g / 10.2oz",
+        "Surface": "Road",
+        "Pronation": "Neutral",
+        "Flexibility": "6",
+        "Cushioning": "Balanced",
+        "Toebox Width": "Medium",
+        "Toebox Volume": "Roomy",
+        "Outsole": "Blown Rubber",
+        "Running Pace": "Jogging/Easy",
+        "Sustainability": "Recycled Materials"
+    },
+    "Cloudultra 2": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "On Cloudtec, On Helion",
+        "Drop": "6mm",
+        "Weight": "265g / 9.35oz",
+        "Surface": "Trail/Off-Road",
+        "Sustainability": "Recycled Materials"
+    },
+    "Cloudsurfer trail": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "On Cloudtec, On Helion",
+        "Heel Height": "32.5mm",
+        "Forefoot Height": "25.5mm",
+        "Drop": "7mm",
+        "Weight": "290g (10.2 oz)",
+        "Surface": "Trail/Off-Road",
+        "Outsole": "Blown Rubber",
+        "Sustainability": "Recycled Materials"
+    },
+    "Cloudvista": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "On Cloudtec, On Helion",
+        "Drop": "7mm",
+        "Weight": "235g / 8.3oz",
+        "Sustainability": "Recycled Materials"
+    },
+    "Cloudwander waterproof": {
+        "Upper": "Mesh",
+        "Midsole": "On Cloudtec",
+        "Drop": "8mm",
+        "Weight": "320g / 11.3oz"
+    },
+    "Cloudhorizon Waterproof": {},
+    "Cloudrock 2 Waterproof": {
+        "Midsole": "On Cloudtec"
+    },
+    "Cloudspike Citius": {
+        "Event": "Mid Distance (400m-1500m)",
+        "Upper": "Mesh",
+        "Midsole": "On Helion",
+        "Sustainability": "Recycled Materials, Sustainable Materials"
+    },
+    "Cloudspike XC": {
+        "Event": "Cross Country",
+        "Upper": "Mesh",
+        "Midsole": "On Helion"
+    },
+    "Cloudspike 1500m": {
+        "Event": "Mid Distance (400m-1500m), Long Distance (1500m+), Cross Country",
+        "Upper": "Mesh",
+        "Midsole": "On Cloudtec",
+        "Sustainability": "Recycled Materials"
+    },
+    "Cloudspike 10000m": {
+        "Event": "Mid Distance (400m-1500m), Long Distance (1500m+), Cross Country",
+        "Upper": "Mesh",
+        "Midsole": "On Cloudtec",
+        "Sustainability": "Recycled Materials"
+    },
+    "More v5": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "New Balance Fresh Foam X",
+        "Drop": "4mm",
+        "Weight": "244g / 8.6oz"
+    },
+    "More v4": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "New Balance Fresh Foam X",
+        "Heel Height": "34mm",
+        "Forefoot Height": "30mm",
+        "Drop": "4mm",
+        "Weight": "295g / 10.4oz",
+        "Surface": "Road"
+    },
+    "1080v13": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "New Balance Fresh Foam X",
+        "Heel Height": "33mm",
+        "Forefoot Height": "27mm",
+        "Drop": "6mm",
+        "Weight": "262g / 9.2oz",
+        "Surface": "Road",
+        "Pronation": "Neutral",
+        "Cushioning": "Plush",
+        "Toebox Width": "Medium",
+        "Toebox Volume": "Medium",
+        "Outsole": "Blown Rubber",
+        "Running Pace": "Jogging/Easy",
+        "Sustainability": "Recycled Materials, Sustainable Materials"
+    },
+    "880v14": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "New Balance Fresh Foam X",
+        "Heel Height": "33mm",
+        "Forefoot Height": "25mm",
+        "Drop": "8mm",
+        "Weight": "261g / 9.2oz",
+        "Surface": "Road",
+        "Running Pace": "Jogging/Easy"
+    },
+    "880v13": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "New Balance Fresh Foam X",
+        "Drop": "10mm",
+        "Weight": "238g / 8.4oz",
+        "Surface": "Road",
+        "Sustainability": "Recycled Materials"
+    },
+    "Vongo v6": {
+        "Support": "Stability",
+        "Upper": "Mesh",
+        "Midsole": "New Balance Fresh Foam X",
+        "Heel Height": "30mm",
+        "Forefoot Height": "24mm",
+        "Drop": "6mm",
+        "Weight": "243g / 8.6oz (US 7.5)",
+        "Surface": "Road",
+        "Pronation": "Pronated",
+        "Cushioning": "Plush",
+        "Toebox Width": "Medium",
+        "Toebox Volume": "Medium",
+        "Running Pace": "Jogging/Easy",
+        "Sustainability": "Recycled Materials"
+    },
+    "860v14": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "New Balance Fresh Foam X",
+        "Drop": "8mm",
+        "Surface": "Road",
+        "Outsole": "Blown Rubber",
+        "Running Pace": "Jogging/Easy"
+    },
+    "860v13": {},
+    "Fresh Foam X Balos": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "New Balance Fresh Foam X",
+        "Heel Height": "33mm",
+        "Forefoot Height": "27mm",
+        "Drop": "6mm",
+        "Weight": "260g"
+    },
+    "Rebel v4": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "New Balance FuelCell",
+        "Heel Height": "30mm",
+        "Forefoot Height": "24mm",
+        "Drop": "6mm",
+        "Weight": "197g / 6.9oz (US 9.5)",
+        "Surface": "Road",
+        "Running Pace": "Jogging/Easy"
+    },
+    "Elite v4": {
+        "Support": "Neutral, Road Racing",
+        "Upper": "Mesh",
+        "Midsole": "New Balance FuelCell",
+        "Heel Height": "40mm",
+        "Forefoot Height": "36mm",
+        "Drop": "4mm",
+        "Weight": "238g / 8.4oz (US 9.5)",
+        "Surface": "Road",
+        "Cushioning": "Responsive",
+        "Running Pace": "Competition/Race"
+    },
+    "Trainer v3": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "New Balance FuelCell",
+        "Heel Height": "40mm",
+        "Forefoot Height": "34mm",
+        "Weight": "261 grams (9.2 oz)",
+        "Surface": "Road",
+        "Running Pace": "Speed Training/Tempo",
+        "Sustainability": "Recycled Materials"
+    },
+    "Pacer v2": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "New Balance FuelCell",
+        "Drop": "8mm",
+        "Weight": "214g / 7.5oz",
+        "Surface": "Road",
+        "Running Pace": "Competition/Race"
+    },
+    "More Trail v3": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "New Balance Fresh Foam X",
+        "Drop": "4mm, 10mm",
+        "Weight": "260g / 9.2oz",
+        "Surface": "Trail/Off-Road",
+        "Sustainability": "Recycled Materials, Sustainable Materials"
+    },
+    "Hierro v8": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "New Balance Fresh Foam X",
+        "Drop": "6mm",
+        "Weight": "318g / 11.2oz",
+        "Surface": "Trail/Off-Road",
+        "Sustainability": "Sustainable Materials"
+    },
+    "Hierro v7": {
+        "Support": "Neutral",
+        "Upper": "Mesh, Gore-Tex",
+        "Midsole": "New Balance Fresh Foam X",
+        "Heel Height": "28mm",
+        "Forefoot Height": "20mm",
+        "Drop": "8mm",
+        "Weight": "235g / 8.3oz (US 7.5)",
+        "Sustainability": "Recycled Materials"
+    },
+    "Fuelcell Venym": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "New Balance FuelCell",
+        "Weight": "264g / 9.3oz",
+        "Surface": "Trail/Off-Road"
+    },
+    "SD 100 v5": {
+        "Event": "Sprint (100m-400m)",
+        "Upper": "Mesh, Synthetic Leather"
+    },
+    "Slip resistant 515": {
+        "Upper": "Mesh"
+    },
+    "Industrial Speedware": {
+        "Midsole": "New Balance Acteva"
+    },
+    "Industrial Logic": {
+        "Midsole": "New Balance Acteva"
+    },
+    "Industrial Calibre": {},
+    "Wave Sky 8": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Mizuno Enerzy nxt",
+        "Heel Height": "41mm",
+        "Forefoot Height": "33mm",
+        "Drop": "8mm",
+        "Weight": "230g / 8.11oz",
+        "Surface": "Road",
+        "Running Pace": "Jogging/Easy",
+        "Sustainability": "Recycled Materials, Sustainable Materials"
+    },
+    "Wave Sky 7": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Mizuno Foam Wave, Mizuno Enerzy, Mizuno Enerzy Core",
+        "Heel Height": "41mm",
+        "Forefoot Height": "33mm",
+        "Drop": "8mm",
+        "Surface": "Road",
+        "Cushioning": "Plush",
+        "Toebox Width": "Medium",
+        "Toebox Volume": "Snug",
+        "Running Pace": "Jogging/Easy",
+        "Sustainability": "Recycled Materials"
+    },
+    "Wave Rider 28": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Mizuno Enerzy nxt",
+        "Heel Height": "38.5mm",
+        "Forefoot Height": "26.5mm",
+        "Drop": "12mm",
+        "Weight": "280g / 9.9oz",
+        "Surface": "Road",
+        "Running Pace": "Jogging/Easy",
+        "Sustainability": "Recycled Materials, Sustainable Materials"
+    },
+    "Wave Rider 27": {
+        "Support": "Neutral",
+        "Upper": "Mesh, Knit",
+        "Midsole": "Mizuno Enerzy",
+        "Heel Height": "38.5mm",
+        "Forefoot Height": "26.5mm",
+        "Drop": "12mm",
+        "Weight": "280g / 9.9oz",
+        "Surface": "Road",
+        "Cushioning": "Plush",
+        "Toebox Width": "Medium",
+        "Running Pace": "Jogging/Easy",
+        "Sustainability": "Recycled Materials, Sustainable Materials"
+    },
+    "Horizon 7": {
+        "Support": "Stability",
+        "Upper": "Mesh",
+        "Midsole": "Mizuno Enerzy, Mizuno Enerzy Core",
+        "Heel Height": "41mm",
+        "Forefoot Height": "33mm",
+        "Drop": "4mm",
+        "Weight": "335g / 11.8oz",
+        "Surface": "Road",
+        "Running Pace": "Jogging/Easy",
+        "Sustainability": "Recycled Materials"
+    },
+    "Inspire 20": {
+        "Support": "Stability",
+        "Upper": "Mesh",
+        "Midsole": "Mizuno Enerzy",
+        "Heel Height": "37.5mm",
+        "Forefoot Height": "25.5mm",
+        "Drop": "12mm",
+        "Weight": "245g / 8.6oz",
+        "Surface": "Road",
+        "Pronation": "Pronated",
+        "Flexibility": "6",
+        "Cushioning": "Balanced",
+        "Toebox Width": "Medium",
+        "Toebox Volume": "Medium",
+        "Outsole": "Blown Rubber",
+        "Running Pace": "Jogging/Easy",
+        "Sustainability": "Recycled Materials, Sustainable Materials"
+    },
+    "Rebellion Pro 2": {
+        "Support": "Neutral, Road Racing",
+        "Upper": "Mesh",
+        "Midsole": "Mizuno Enerzy Lite, Mizuno Enerzy Lite Plus",
+        "Heel Height": "38mm",
+        "Forefoot Height": "36.5mm",
+        "Weight": "210g / 7.4oz",
+        "Surface": "Road",
+        "Pronation": "Neutral",
+        "Flexibility": "3",
+        "Cushioning": "Responsive",
+        "Toebox Width": "Medium",
+        "Toebox Volume": "Medium",
+        "Outsole": "Blown Rubber",
+        "Running Pace": "Competition/Race",
+        "Sustainability": "Recycled Materials, Sustainable Materials"
+    },
+    "Rebellion Flash 2": {
+        "Support": "Neutral, Road Racing",
+        "Upper": "Mesh",
+        "Midsole": "Mizuno Enerzy, Mizuno Enerzy Lite Plus",
+        "Heel Height": "35mm",
+        "Forefoot Height": "34.5mm",
+        "Weight": "205g / 7.2oz",
+        "Surface": "Road",
+        "Pronation": "Neutral",
+        "Flexibility": "4",
+        "Cushioning": "Responsive",
+        "Toebox Width": "Medium",
+        "Toebox Volume": "Medium",
+        "Outsole": "Blown Rubber",
+        "Running Pace": "Competition/Race",
+        "Sustainability": "Recycled Materials, Sustainable Materials"
+    },
+    "Neo Vista": {
+        "Support": "Neutral",
+        "Upper": "Knit",
+        "Midsole": "Mizuno Enerzy nxt",
+        "Heel Height": "44.5mm",
+        "Forefoot Height": "36.5mm",
+        "Drop": "8mm",
+        "Weight": "265g / 9.3oz",
+        "Surface": "Road",
+        "Running Pace": "Speed Training/Tempo",
+        "Sustainability": "Recycled Materials, Sustainable Materials"
+    },
+    "Wave Rider TT 2": {},
+    "Mujin 10": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Mizuno U4icX, Mizuno Enerzy",
+        "Heel Height": "38mm",
+        "Forefoot Height": "30mm",
+        "Drop": "10mm",
+        "Weight": "340g / 12oz",
+        "Surface": "Trail/Off-Road",
+        "Running Pace": "Jogging/Easy",
+        "Sustainability": "Recycled Materials"
+    },
+    "Daichi 8": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Mizuno Enerzy",
+        "Heel Height": "37.5",
+        "Forefoot Height": "25.5",
+        "Drop": "12mm",
+        "Weight": "250g",
+        "Surface": "Road",
+        "Running Pace": "Jogging/Easy"
+    },
+    "Daichi 8 GTX": {
+        "Support": "Neutral",
+        "Upper": "Gore-Tex",
+        "Midsole": "Mizuno Enerzy",
+        "Heel Height": "34mm",
+        "Forefoot Height": "27.5mm",
+        "Drop": "6mm",
+        "Weight": "310g",
+        "Surface": "Trail/Off-Road",
+        "Sustainability": "Recycled Materials"
+    },
+    "Wave Rider GTX": {
+        "Support": "Neutral",
+        "Upper": "Gore-Tex",
+        "Midsole": "Mizuno U4iC, Mizuno Enerzy",
+        "Heel Height": "36mm",
+        "Forefoot Height": "24mm",
+        "Drop": "12mm",
+        "Weight": "300g / 10.6oz",
+        "Surface": "Trail/Off-Road",
+        "Sustainability": "Recycled Materials"
+    },
+    "X Sprint": {
+        "Event": "Sprint (100m-400m)",
+        "Upper": "Mesh, Synthetic Leather"
+    },
+    "Genesis": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Salomon EnergyCell+, Salomon EVA",
+        "Drop": "8mm",
+        "Weight": "280g / 9.9oz",
+        "Surface": "Trail/Off-Road",
+        "Sustainability": "Recycled Materials"
+    },
+    "Thundercross": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Heel Height": "31mm",
+        "Forefoot Height": "27.2mm",
+        "Drop": "4mm",
+        "Weight": "290g / 10.2oz",
+        "Surface": "Trail/Off-Road"
+    },
+    "Sense Ride 5": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Heel Height": "29.6mm",
+        "Forefoot Height": "21.3mm",
+        "Drop": "8mm",
+        "Weight": "286g / 10.1oz",
+        "Surface": "Trail/Off-Road"
+    },
+    "Speedcross 6": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Salomon EnergyCell+",
+        "Heel Height": "33mm",
+        "Forefoot Height": "23mm",
+        "Drop": "10mm",
+        "Weight": "328g / 11.6oz",
+        "Surface": "Trail/Off-Road",
+        "Sustainability": "Recycled Materials"
+    },
+    "Glide Max TR": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Midsole": "Salomon EVA",
+        "Heel Height": "33 mm",
+        "Forefoot Height": "27 mm",
+        "Drop": "6mm",
+        "Weight": "285g (10 oz)",
+        "Surface": "Trail/Off-Road"
+    },
+    "MTL Skyfire 2 Matryx": {
+        "Support": "Neutral",
+        "Upper": "Woven",
+        "Midsole": "Merrell FloatPro",
+        "Heel Height": "23.5mm",
+        "Forefoot Height": "17.5mm",
+        "Drop": "6mm",
+        "Weight": "242g / 8.5oz",
+        "Surface": "Trail/Off-Road"
+    },
+    "Trail Glove 7": {
+        "Support": "Barefoot",
+        "Upper": "Mesh",
+        "Midsole": "Merrell FloatPro",
+        "Heel Height": "14mm",
+        "Forefoot Height": "14mm",
+        "Drop": "0mm",
+        "Surface": "Trail/Off-Road",
+        "Sustainability": "Recycled Materials"
+    },
+    "Vapor Glove 6": {
+        "Support": "Barefoot",
+        "Upper": "Mesh",
+        "Midsole": "Merrell FloatPro",
+        "Heel Height": "6mm",
+        "Forefoot Height": "6mm",
+        "Drop": "0mm",
+        "Weight": "150g / 5.3oz",
+        "Surface": "Trail/Off-Road",
+        "Sustainability": "Recycled Materials"
+    },
+    "Oofos Ooahh Sport - Unisex Recovery Slide": {},
+    "Oofos Ooahh - Womens Recovery Thongs": {},
+    "Oofos OOriginal - Unisex Recovery Thongs": {},
+    "Vectiv Enduris 3": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Heel Height": "31mm",
+        "Forefoot Height": "25mm",
+        "Drop": "6mm",
+        "Weight": "307g / 10.8oz",
+        "Surface": "Trail/Off-Road",
+        "Running Pace": "Jogging/Easy"
+    },
+    "Vectiv Exploris 2 Futurelight": {
+        "Upper": "Mesh"
+    },
+    "Vectiv Fastpack Futurelight": {
+        "Upper": "Mesh"
+    },
+    "Altamesa 300": {
+        "Support": "Neutral",
+        "Upper": "Mesh",
+        "Drop": "6mm",
+        "Weight": "",
+        "Surface": "Trail/Off-Road",
+        "Outsole": "Blown Rubber",
+        "Sustainability": "Recycled Materials"
+    },
+    "Primus Lite 3.5": {
+        "Support": "Barefoot",
+        "Upper": "Mesh",
+        "Drop": "0mm",
+        "Surface": "Road",
+        "Running Pace": "Jogging/Easy",
+        "Sustainability": "Recycled Materials"
+    },
+    "Primus Knit": {
+        "Support": "Barefoot",
+        "Upper": "Mesh",
+        "Drop": "0mm",
+        "Sustainability": "Recycled Materials"
+    },
+    "Primus Trail 3.5 FG": {
+        "Support": "Barefoot",
+        "Upper": "Mesh",
+        "Surface": "Trail/Off-Road",
+        "Running Pace": "Jogging/Easy",
+        "Sustainability": "Recycled Materials"
+    },
+    "Motus Strength": {
+        "Support": "Barefoot",
+        "Sustainability": "Recycled Materials"
+    },
+    "Motus Flex": {
+        "Support": "Barefoot",
+        "Upper": "Mesh"
+    },
+    "Geo Court": {},
+    "RA": {
+        "Sustainability": "Recycled Materials"
+    },
+    "Primus Lite IV All Weather": {
+        "Support": "Barefoot",
+        "Upper": "Mesh",
+        "Drop": "0mm",
+        "Sustainability": "Recycled Materials"
+    }
+}
