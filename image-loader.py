@@ -1,9 +1,9 @@
 import pandas as pd
 import os
 
-file_name = 'nbmisc2_export'
+file_name = 'vivo_export'
 
-SHOPIFY_FILE_PATH = os.path.join(os.getcwd(), f'data/{file_name}.csv')
+SHOPIFY_FILE_PATH = os.path.join(os.getcwd(), f'./{file_name}.csv')
 shopify_df = pd.read_csv(SHOPIFY_FILE_PATH)
 
 #I dont even know what this does at this point, I kept adding logic until I got what I wanted

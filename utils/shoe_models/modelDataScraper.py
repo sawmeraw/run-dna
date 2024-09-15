@@ -129,6 +129,6 @@ if __name__ == "__main__":
             write_product_to_json({search_query: product_data})
 
         handle_popup = False  # Close the popup only for the first product
-        time.sleep(2)
+        time.sleep(2) 
 
     driver.quit()

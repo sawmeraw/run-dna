@@ -5,7 +5,7 @@ import pandas as pd
 def capitalize_color_part(part:str):
     return ' '.join(word.capitalize() for word in part.split())
 
-def format_color(color: str):
+def format_color(color: str)->str:
     color = color.replace('-', '/')
     return '/'.join(capitalize_color_part(part) for part in color.split('/'))
 
@@ -18,10 +18,23 @@ def replace_between_parentheses(description:str, replacement:str):
         return new_desc
     else:
         return description
+    
+def get_custom1_acc(description: str, brands, type: str, running: bool)-> str:
+    index = description.find('(')
+    stripped_desc = description[:index]
+    product_name = ""
+    _desc = stripped_desc.lower().strip().split(' ')
+
+    prefixes = [' m ', ' u ', ' w ', ' g ', ' b ', ' y ']
+
+    custom1 = " ".join([word.title() if word not in prefixes else '' for word in _desc]).replace('  ', ' ').strip()
+
+    return custom1
+        
 
 
 # New function to get product name (Custom1)
-def get_custom1(description: str, brands, product_type: str):
+def get_custom1(description: str, brands, product_type: str, apparel:bool):
     # Match gender and width (e.g., M, W, U, etc.)
     gender_width_match = re.search(r'\b(M|W|U)\b.*?\s+(\w{1,2})\s*\(', description)
     gender = gender_width_match.group(1) if gender_width_match else ''
@@ -55,6 +68,70 @@ def get_custom1(description: str, brands, product_type: str):
 
     return product_name
 
+def get_app_custom1(description: str)-> str:
+    description = description.lower().strip()
+
+    description = description.lower().strip()
+
+    description = re.sub(r'\bw\b', 'Womens', description)
+    description = re.sub(r'\bm\b', 'Mens', description)
+
+    description = re.sub(r'\(.*?\)', '', description)
+
+    description = re.sub(r'\bSZ\s+\w+', '', description)
+
+    description = re.sub(r'\b\w+/\w+', '', description)
+
+    sizeIndex = description.find('sz')
+    description = description[:sizeIndex]
+
+    cleaned_description = description.title().strip()
+
+    return cleaned_description
+
+def get_frank_green_color(description: str)-> str:
+    startIndex = description.find('(')
+    endIndex = description.find(')')
+
+    return format_color(description[startIndex+1: endIndex])
+
+
+def get_frank_green_custom1(description: str)-> str:
+    startIndex = description.find('(')
+    endIndex = description.find(')')
+
+    first_part = description[: startIndex]
+    second_part = description[endIndex+1:]
+
+    custom1 = first_part.strip().title() + " " + second_part.strip().title()
+    return custom1
+
+
+def get_goodr_custom1(description: str):
+    arr= description.split(' ')
+    custom1 = ''
+    for word in arr:
+        if word.strip().lower() == 'sunglasses':
+            custom1 += 'Sunglasses'
+            break
+        custom1 += word.strip().title() + " "
+    
+    return custom1
+
+def get_goodr_color(description: str)->str:
+    arr = description.split(' ')
+    color = ""
+    flag = False
+
+    for word in arr:
+        if flag:
+            color += word.strip().title() + " "
+        if word.lower().strip() == 'sunglasses':
+            flag = True
+    
+    return color
+
+
 # Function to get the category based on product type
 def get_category(product_type : str):
     if 'Athletics' in product_type:
@@ -75,6 +152,11 @@ def get_color(description):
         return color
     return ""
 
+def get_boyles_color(description: str)-> str:
+    index = description.find(')')
+    return format_color(description[index+1:])
+
+
 def get_new_desc(description, manufacturer_sku):
     return replace_between_parentheses(description, manufacturer_sku)
 
@@ -88,7 +170,7 @@ def get_new_mansku(sku: str, brand: str) -> str:
         return process_brooks_mansku(sku)
     elif _brand == "new balance":
         return process_new_balance_mansku(sku)
-    elif _brand in ["vivobarefoot", "hoka", "saucony", "merrell", "puma", "nike"]:
+    elif _brand in ["vivobarefoot", "hoka", "saucony", "merrell", "puma", "nike", "2xu"]:
         return process_shared_logic_mansku(sku)  # Shared logic
     elif _brand == "mizuno":
         return process_mizuno_mansku(sku)
@@ -96,8 +178,12 @@ def get_new_mansku(sku: str, brand: str) -> str:
         return process_on_running_mansku(sku)
     elif _brand == "altra":
         return process_altra_mansku(sku)
+    elif _brand == "nike-boyles":
+        return process_boyles_mansku(sku)
+    elif _brand == 'frank green':
+        return process_frank_green_mansku(sku)
     else:
-        return sku  # Default: return the SKU unmodified if brand is not recognized
+        return sku
 
 # Shared logic function for Hoka, Saucony, Vivobarefoot, Merrell, Puma
 def process_shared_logic_mansku(sku: str) -> str:
@@ -124,19 +210,34 @@ def process_new_balance_mansku(sku: str) -> str:
 def process_mizuno_mansku(sku: str) -> str:
     return sku[:-2]
 
-def process_on_running_mansku(sku: str) -> str:
+def process_on_running_mansku(sku: str, ignore_old_sku: bool) -> str:
+    if ignore_old_sku:
+        return sku if '.' in sku else sku[:8]
     return sku[:sku.find('.') + 3] if '.' in sku else sku[:8]
 
 def process_altra_mansku(sku: str) -> str:
     return sku[:-3]
 
+def process_boyles_mansku(sku: str)-> str:
+    arr = sku.split(".")
+    return ".".join(arr[:3])
+
+def process_frank_green_mansku(sku:str)-> str:
+    cIndex = sku.find('C')
+    return sku[:cIndex + 1]
+
 
 if __name__ == "__main__":
 
     # Load CSV
-    rexFile = pd.read_csv('./data/22_23_run_rem_stock_filtered.csv', low_memory=False)
+    rexFile = pd.read_csv('./goodr_filtered.csv', low_memory=False)
 
     brands = rexFile['Brand'].unique().tolist()
+
+    rexFile['Colour'] = rexFile['Colour'].astype(str)
+    rexFile['ShortDescription'] = rexFile['ShortDescription'].astype(str)
+    rexFile['Custom1'] = rexFile['Custom1'].astype(str)
+
 
     for index, row in rexFile.iterrows():
         # Extract
@@ -146,8 +247,8 @@ if __name__ == "__main__":
         currBrand = row['Brand']
 
         # Process
-        product_name = get_custom1(description, brands, product_type)
-        color = get_color(description)
+        product_name = get_goodr_custom1(description)
+        color = get_goodr_color(description)
         new_short_desc = get_new_desc(description, manufacturer_sku)
         new_mansku= get_new_mansku(manufacturer_sku, currBrand)
 
@@ -158,6 +259,6 @@ if __name__ == "__main__":
         rexFile.at[index, 'Colour'] = color
         rexFile.at[index, 'ManufacturerSKU'] = new_mansku
 
-    rexFile.to_csv("./results/22_23_run_rem_processed.csv", index=False)
+    rexFile.to_csv("./goodr_processed.csv", index=False)
 
     print('Done')

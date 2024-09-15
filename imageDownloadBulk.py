@@ -31,24 +31,46 @@ def sanitize_filename(filename):
 
 
 #god almighty method
-def generate_brooks_image_urls(item_code : str):
+def generate_asics_image_urls(item_code : str, color_code: str):
     urls = [
-        f'https://nb.scene7.com/is/image/NB/{item_code}_nb_02_i?$dw_detail_main_lg$&bgc=ffffff&layer=1&bgcolor=ffffff&blendMode=mult&scale=10&wid=1600&hei=1600',
-        f'https://nb.scene7.com/is/image/NB/{item_code}_nb_03_i?$dw_detail_main_lg$&bgc=ffffff&layer=1&bgcolor=ffffff&blendMode=mult&scale=10&wid=1600&hei=1600',
-        f'https://nb.scene7.com/is/image/NB/{item_code}_nb_04_i?$dw_detail_main_lg$&bgc=ffffff&layer=1&bgcolor=ffffff&blendMode=mult&scale=10&wid=1600&hei=1600',
-        f'https://nb.scene7.com/is/image/NB/{item_code}_nb_05_i?$dw_detail_main_lg$&bgc=ffffff&layer=1&bgcolor=ffffff&blendMode=mult&scale=10&wid=1600&hei=1600',
-        f'https://nb.scene7.com/is/image/NB/{item_code}_nb_06_i?$dw_detail_main_lg$&bgc=ffffff&layer=1&bgcolor=ffffff&blendMode=mult&scale=10&wid=1600&hei=1600',
-        f'https://nb.scene7.com/is/image/NB/{item_code}_nb_07_i?$dw_detail_main_lg$&bgc=ffffff&layer=1&bgcolor=ffffff&blendMode=mult&scale=10&wid=1600&hei=1600',
-        
+        f'https://images.asics.com/is/image/asics/{item_code}_{color_code}_SR_RT_GLB?$zoom$',
+        f'https://images.asics.com/is/image/asics/{item_code}_{color_code}_SR_LT_GLB?$zoom$',
+        f'https://images.asics.com/is/image/asics/{item_code}_{color_code}_SB_TP_GLB?$zoom$',
+        f'https://images.asics.com/is/image/asics/{item_code}_{color_code}_SB_BT_GLB?$zoom$',
+        f'https://images.asics.com/is/image/asics/{item_code}_{color_code}_SB_BK_GLB?$zoom$',
+        f'https://images.asics.com/is/image/asics/{item_code}_{color_code}_SB_FR_GLB?$zoom$',
     ]
     return urls
 
+def generate_saucony_image_urls(item_code: str, color_code: str):
+    urls= [
+        f'https://s7d4.scene7.com/is/image/WolverineWorldWide/{item_code}-{color_code}_1?$dw-hi-res$',
+        f'https://s7d4.scene7.com/is/image/WolverineWorldWide/{item_code}-{color_code}_3?$dw-hi-res$',
+        f'https://s7d4.scene7.com/is/image/WolverineWorldWide/{item_code}-{color_code}_5?$dw-hi-res$',
+        f'https://s7d4.scene7.com/is/image/WolverineWorldWide/{item_code}-{color_code}_6?$dw-hi-res$',
+        f'https://s7d4.scene7.com/is/image/WolverineWorldWide/{item_code}-{color_code}_4?$dw-hi-res$',
+        f'https://s7d4.scene7.com/is/image/WolverineWorldWide/{item_code}-{color_code}_2?$dw-hi-res$',
+    ]
+
+    return urls
+
+def generate_hoka_image_urls(item_code: str, color_code: str):
+    urls = [
+        f'https://dms.deckers.com/hoka/image/upload/q_auto,dpr_auto/b_rgb:ffffff/w_1610/v1701902246/{item_code}-{color_code}_1.png?_s=RAABAB0',
+        f'https://dms.deckers.com/hoka/image/upload/q_auto,dpr_auto/b_rgb:ffffff/w_1610/v1701902246/{item_code}-{color_code}_8.png?_s=RAABAB0',
+        f'https://dms.deckers.com/hoka/image/upload/q_auto,dpr_auto/b_rgb:ffffff/w_1610/v1701902246/{item_code}-{color_code}_2.png?_s=RAABAB0',
+        f'https://dms.deckers.com/hoka/image/upload/q_auto,dpr_auto/b_rgb:ffffff/w_1610/v1701902246/{item_code}-{color_code}_7.png?_s=RAABAB0',
+        f'https://dms.deckers.com/hoka/image/upload/q_auto,dpr_auto/b_rgb:ffffff/w_1610/v1701902246/{item_code}-{color_code}_5.png?_s=RAABAB0',
+        f'https://dms.deckers.com/hoka/image/upload/q_auto,dpr_auto/b_rgb:ffffff/w_1610/v1701902246/{item_code}-{color_code}_6.png?_s=RAABAB0',
+    ]
+
+    return urls
 
 if __name__ == "__main__":
-    file_name = 'nbmisc2_export'
+    file_name = 'hoka2_export'
 
-    REX_FILE_PATH = os.path.join(os.getcwd(), 'results/rex processed/sent/nb_processed.csv')
-    SHOPIFY_FILE_PATH = os.path.join(os.getcwd(), f'data/{file_name}.csv')
+    REX_FILE_PATH = os.path.join(os.getcwd(), './hoka_rex.csv')
+    SHOPIFY_FILE_PATH = os.path.join(os.getcwd(), f'./{file_name}.csv')
 
     rex_df = pd.read_csv(REX_FILE_PATH)
     shopify_df = pd.read_csv(SHOPIFY_FILE_PATH)
@@ -92,10 +114,10 @@ if __name__ == "__main__":
             if barcode in supplier_sku:
                 found = True
                 description = rex_row['ShortDescription']
-                item_code = get_product_code(description)
-                stripped_item_code = item_code[: item_code.find("-")]
-                
-                urls = generate_brooks_image_urls(stripped_item_code.lower())
+                product_code = get_product_code(description)
+                item_code =product_code.split('-')[0]
+                color_code = product_code.split("-")[1]
+                urls = generate_hoka_image_urls(item_code, color_code)
 
                 # Download images
                 for i, url in enumerate(urls, start=1):

@@ -1,6 +1,7 @@
 import pandas as pd
 import re
 
+#Works perfectly dont touch
 def filter_products_by_stock(product_file: str, stock_file: str, output_file: str):
     product_df = pd.read_csv(product_file, low_memory=False)
 
@@ -24,10 +25,8 @@ def filter_products_by_stock(product_file: str, stock_file: str, output_file: st
     print(f"Filtered products with stock saved to {output_file}")
 
 if __name__ == "__main__":
-    # Paths to your files
     product_file = './results/nike_app_processed.csv'
     stock_file = './stock_data/apparel_data.csv'   
     output_file = '.nike_app_processed_stock_checked.csv'
 
-    # Call the function to filter products by stock
     filter_products_by_stock(product_file, stock_file, output_file)
