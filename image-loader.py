@@ -1,7 +1,7 @@
 import pandas as pd
 import os
 
-file_name = 'vivo_export'
+file_name = 'hoka1_export'
 
 SHOPIFY_FILE_PATH = os.path.join(os.getcwd(), f'./{file_name}.csv')
 shopify_df = pd.read_csv(SHOPIFY_FILE_PATH)

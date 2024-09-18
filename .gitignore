@@ -8,3 +8,4 @@
 selenium_driver/
 /description_dir/
 /stock_data/
+*.csv
