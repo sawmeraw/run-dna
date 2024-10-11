@@ -54,26 +54,26 @@ def generate_saucony_image_urls(item_code: str, color_code: str):
 
     return urls
 
-def generate_hoka_image_urls(item_code: str, color_code: str):
+def generate_hoka_image_urls(item_code: str, color_code: str, version: str):
     urls = [
-        f'https://dms.deckers.com/hoka/image/upload/q_auto,dpr_auto/b_rgb:ffffff/w_1610/v1701902246/{item_code}-{color_code}_1.png?_s=RAABAB0',
-        f'https://dms.deckers.com/hoka/image/upload/q_auto,dpr_auto/b_rgb:ffffff/w_1610/v1701902246/{item_code}-{color_code}_8.png?_s=RAABAB0',
-        f'https://dms.deckers.com/hoka/image/upload/q_auto,dpr_auto/b_rgb:ffffff/w_1610/v1701902246/{item_code}-{color_code}_2.png?_s=RAABAB0',
-        f'https://dms.deckers.com/hoka/image/upload/q_auto,dpr_auto/b_rgb:ffffff/w_1610/v1701902246/{item_code}-{color_code}_7.png?_s=RAABAB0',
-        f'https://dms.deckers.com/hoka/image/upload/q_auto,dpr_auto/b_rgb:ffffff/w_1610/v1701902246/{item_code}-{color_code}_5.png?_s=RAABAB0',
-        f'https://dms.deckers.com/hoka/image/upload/q_auto,dpr_auto/b_rgb:ffffff/w_1610/v1701902246/{item_code}-{color_code}_6.png?_s=RAABAB0',
+        f'https://dms.deckers.com/hoka/image/upload/q_auto,dpr_auto/b_rgb:ffffff/w_1610/{version}/{item_code}-{color_code}_1.png?_s=RAABAB0',
+        f'https://dms.deckers.com/hoka/image/upload/q_auto,dpr_auto/b_rgb:ffffff/w_1610/{version}/{item_code}-{color_code}_8.png?_s=RAABAB0',
+        f'https://dms.deckers.com/hoka/image/upload/q_auto,dpr_auto/b_rgb:ffffff/w_1610/{version}/{item_code}-{color_code}_2.png?_s=RAABAB0',
+        f'https://dms.deckers.com/hoka/image/upload/q_auto,dpr_auto/b_rgb:ffffff/w_1610/{version}/{item_code}-{color_code}_7.png?_s=RAABAB0',
+        f'https://dms.deckers.com/hoka/image/upload/q_auto,dpr_auto/b_rgb:ffffff/w_1610/{version}/{item_code}-{color_code}_5.png?_s=RAABAB0',
+        f'https://dms.deckers.com/hoka/image/upload/q_auto,dpr_auto/b_rgb:ffffff/w_1610/{version}/{item_code}-{color_code}_6.png?_s=RAABAB0',
     ]
 
     return urls
 
 if __name__ == "__main__":
-    file_name = 'hoka2_export'
+    file_name = 'bondi_export'
 
-    REX_FILE_PATH = os.path.join(os.getcwd(), './hoka_rex.csv')
+    REX_FILE_PATH = os.path.join(os.getcwd(), './rex_all.csv')
     SHOPIFY_FILE_PATH = os.path.join(os.getcwd(), f'./{file_name}.csv')
 
-    rex_df = pd.read_csv(REX_FILE_PATH)
-    shopify_df = pd.read_csv(SHOPIFY_FILE_PATH)
+    rex_df = pd.read_csv(REX_FILE_PATH, low_memory=False)
+    shopify_df = pd.read_csv(SHOPIFY_FILE_PATH, low_memory=False)
 
     products_dict = {}
     currTitle = ""
@@ -114,14 +114,16 @@ if __name__ == "__main__":
             if barcode in supplier_sku:
                 found = True
                 description = rex_row['ShortDescription']
-                product_code = get_product_code(description)
+                # product_code = get_product_code(description)
+                product_code = rex_row['SupplierSKU2']
                 item_code =product_code.split('-')[0]
                 color_code = product_code.split("-")[1]
-                urls = generate_hoka_image_urls(item_code, color_code)
+
+                urls = generate_hoka_image_urls(item_code, color_code, 'v1668769710')
 
                 # Download images
                 for i, url in enumerate(urls, start=1):
-                    image_name = sanitize_filename(f"{key}-{i}.png") # THE FILE EXTENSION IS HEREEEEEE
+                    image_name = sanitize_filename(f"{key}-rundna-{i}.png") # THE FILE EXTENSION IS HEREEEEEE
                     image_path = os.path.join(image_save_dir, image_name)
 
                     try:

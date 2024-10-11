@@ -42,7 +42,6 @@ for index, row in shopify_df.iterrows():
 
     shopify_df.at[index, 'Variant Image'] = shopify_image_url
 
-
 urlIndex = 0
 
 #u dont wanna do the same thing twice
@@ -58,12 +57,11 @@ for index, row in shopify_df.iterrows():
 
     # this fucker is important
     if pd.notna(title):
-        urlIndex = index 
+        urlIndex = index
         currTitle = title
 
     combination_key = f"{currTitle}-{color}"
     
-
     if combination_key in processed_combinations:
         continue
 

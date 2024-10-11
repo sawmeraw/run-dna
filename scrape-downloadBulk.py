@@ -100,12 +100,12 @@ def scrape_images_after_search(driver, search_query, file_name, handle_popup):
 
 
 if __name__ == "__main__":
-    file_name = 'hoka1_export'
+    file_name = 'products_export'
 
-    REX_FILE_PATH = os.path.join(os.getcwd(), 'hoka_rex.csv')
+    REX_FILE_PATH = os.path.join(os.getcwd(), 'rex_all.csv')
     SHOPIFY_FILE_PATH = os.path.join(os.getcwd(), f'{file_name}.csv')
 
-    rex_df = pd.read_csv(REX_FILE_PATH)
+    rex_df = pd.read_csv(REX_FILE_PATH, low_memory=False)
     shopify_df = pd.read_csv(SHOPIFY_FILE_PATH)
 
     IMAGE_FOLDER = os.path.join(os.getcwd(), "images")
